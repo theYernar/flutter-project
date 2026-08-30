@@ -14,3 +14,4 @@ extension IntegerExtension on num? {
     return priceFormatter.format(this).replaceAll(',', ' ');
   }
 }
+

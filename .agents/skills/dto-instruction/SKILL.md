@@ -22,8 +22,8 @@ Use this pattern for new DTO files:
 ```dart
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part '../../../skills/dto-instruction/user_dto.freezed.dart';
-part '../../../skills/dto-instruction/user_dto.g.dart';
+part 'user_dto.freezed.dart';
+part 'user_dto.g.dart';
 
 @freezed
 sealed class UserDTO with _$UserDTO {
@@ -45,11 +45,17 @@ For new Dart 3 / Freezed 3 DTOs, prefer `sealed class`, matching the newer auth 
 
 The root `build.yaml` configures `json_serializable` with:
 
-- `field_rename: snake`
-- `create_factory: true`
-- `create_to_json: true`
-- `include_if_null: false`
-
+```yaml
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          field_rename: snake
+          create_factory: true
+          create_to_json: true
+          include_if_null: false
+```
 Because of this, do not add `@JsonKey(name: '...')` for ordinary camelCase-to-snake_case fields:
 
 - `avatarPath` maps to `avatar_path`.
