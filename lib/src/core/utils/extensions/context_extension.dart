@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:project/src/core/constant/localization/localization.dart';
-import 'package:project/src/core/constant/localization/translations/app_localizations.dart';
-import 'package:project/src/core/containers/repository_storage.dart';
-import 'package:project/src/core/presentation/scopes/repository_scope.dart';
-import 'package:project/src/feature/app/initialization/model/dependencies_container.dart';
-import 'package:project/src/feature/app/initialization/widget/dependencies_scope.dart';
+import 'package:flutter_project/src/core/constant/localization/localization.dart';
+import 'package:flutter_project/src/core/constant/localization/translations/app_localizations.dart';
+import 'package:flutter_project/src/core/containers/repository_storage.dart';
+import 'package:flutter_project/src/core/presentation/scopes/repository_scope.dart';
+import 'package:flutter_project/src/feature/app/initialization/model/dependencies_container.dart';
+import 'package:flutter_project/src/feature/app/initialization/widget/dependencies_scope.dart';
 
 extension ContextExtension on BuildContext {
   T? inhMaybeOf<T extends InheritedWidget>({bool listen = true}) =>

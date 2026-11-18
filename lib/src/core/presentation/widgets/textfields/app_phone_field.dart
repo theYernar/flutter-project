@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
-import 'package:project/src/core/presentation/widgets/textfields/app_text_field.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/presentation/widgets/textfields/app_text_field.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 /// Filled phone-number input with `+7 (XXX) XXX-XX-XX` mask.
 ///

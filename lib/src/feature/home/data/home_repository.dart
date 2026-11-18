@@ -1,4 +1,4 @@
-import 'package:project/src/feature/home/data/home_remote_ds.dart';
+import 'package:flutter_project/src/feature/home/data/home_remote_ds.dart';
 
 abstract interface class IHomeRepository {}
 

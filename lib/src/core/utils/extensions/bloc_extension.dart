@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project/src/core/utils/extensions/duration_extension.dart';
+import 'package:flutter_project/src/core/utils/extensions/duration_extension.dart';
 
 mixin StateNotifierMixin<State extends Object> on BlocBase<State> {
   Future<void> notify(

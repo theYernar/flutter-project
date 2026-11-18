@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:isolate';
 import 'dart:typed_data';
 
-import 'package:project/src/core/rest_client/rest_client.dart';
+import 'package:flutter_project/src/core/rest_client/rest_client.dart';
 import 'package:meta/meta.dart';
 import 'package:path/path.dart' as p;
 

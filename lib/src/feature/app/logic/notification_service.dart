@@ -6,9 +6,9 @@
 // import 'package:firebase_messaging/firebase_messaging.dart';
 // import 'package:flutter/material.dart';
 // import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-// import 'package:project/src/feature/app/router/app_router.dart';
-// import 'package:project/src/feature/auth/database/auth_dao.dart';
-// import 'package:project/src/feature/home/model/notification_dto.dart';
+// import 'package:flutter_project/src/feature/app/router/app_router.dart';
+// import 'package:flutter_project/src/feature/auth/database/auth_dao.dart';
+// import 'package:flutter_project/src/feature/home/model/notification_dto.dart';
 
 // final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
 //     FlutterLocalNotificationsPlugin();

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 /// Read-only field that opens a picker (bottom sheet) on tap.
 ///

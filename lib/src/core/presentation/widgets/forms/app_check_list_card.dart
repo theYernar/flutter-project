@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project/src/core/presentation/widgets/checkboxes/app_check.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/presentation/widgets/checkboxes/app_check.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 /// Description of a single row inside [AppCheckListCard].
 class AppCheckListItem<T> {

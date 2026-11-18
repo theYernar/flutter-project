@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project/src/core/constant/localization/localization.dart';
-import 'package:project/src/core/theme/resources.dart';
-import 'package:project/src/feature/app/bloc/app_bloc.dart';
-import 'package:project/src/feature/app/presentation/widgets/app_router_builder.dart';
-import 'package:project/src/feature/app/router/app_router.dart';
+import 'package:flutter_project/src/core/constant/localization/localization.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/feature/app/bloc/app_bloc.dart';
+import 'package:flutter_project/src/feature/app/presentation/widgets/app_router_builder.dart';
+import 'package:flutter_project/src/feature/app/router/app_router.dart';
 
 /// Entry point to the MaterialApp.router with theme, locales and routing.
 class MaterialContext extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:project/src/core/constant/localization/translations/app_localizations.dart';
+import 'package:flutter_project/src/core/constant/localization/translations/app_localizations.dart';
 
 /// Localization helper around the generated [AppLocalizations].
 final class Localization {

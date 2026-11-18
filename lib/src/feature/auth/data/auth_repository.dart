@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:project/src/feature/auth/data/auth_remote_ds.dart';
-import 'package:project/src/feature/auth/database/auth_dao.dart';
-import 'package:project/src/feature/auth/model/auth_response_dto.dart';
+import 'package:flutter_project/src/feature/auth/data/auth_remote_ds.dart';
+import 'package:flutter_project/src/feature/auth/database/auth_dao.dart';
+import 'package:flutter_project/src/feature/auth/model/auth_response_dto.dart';
 
 abstract interface class IAuthRepository {
   bool get isAuthenticated;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 enum AppTextFieldVariant { regular, compact }
 

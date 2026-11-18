@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:project/src/core/presentation/widgets/buttons/bouncy_button.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/presentation/widgets/buttons/bouncy_button.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 class MainBottomBar extends StatelessWidget {
   const MainBottomBar({required this.tabsRouter, super.key});

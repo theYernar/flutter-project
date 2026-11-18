@@ -1,4 +1,4 @@
-import 'package:project/src/core/rest_client/rest_client.dart';
+import 'package:flutter_project/src/core/rest_client/rest_client.dart';
 
 abstract interface class IAuthRemoteDS {}
 

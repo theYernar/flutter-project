@@ -1,13 +1,13 @@
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:project/src/core/rest_client/rest_client.dart';
-import 'package:project/src/core/rest_client/src/dio_rest_client/src/interceptor/dio_interceptor.dart';
-import 'package:project/src/feature/auth/data/auth_remote_ds.dart';
-import 'package:project/src/feature/auth/data/auth_repository.dart';
-import 'package:project/src/feature/auth/database/auth_dao.dart';
-import 'package:project/src/feature/home/data/home_remote_ds.dart';
-import 'package:project/src/feature/home/data/home_repository.dart';
-import 'package:project/src/feature/profile/data/profile_remote_ds.dart';
-import 'package:project/src/feature/profile/data/profile_repository.dart';
+import 'package:flutter_project/src/core/rest_client/rest_client.dart';
+import 'package:flutter_project/src/core/rest_client/src/dio_rest_client/src/interceptor/dio_interceptor.dart';
+import 'package:flutter_project/src/feature/auth/data/auth_remote_ds.dart';
+import 'package:flutter_project/src/feature/auth/data/auth_repository.dart';
+import 'package:flutter_project/src/feature/auth/database/auth_dao.dart';
+import 'package:flutter_project/src/feature/home/data/home_remote_ds.dart';
+import 'package:flutter_project/src/feature/home/data/home_repository.dart';
+import 'package:flutter_project/src/feature/profile/data/profile_remote_ds.dart';
+import 'package:flutter_project/src/feature/profile/data/profile_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Storage of repositories, data sources and DAOs.

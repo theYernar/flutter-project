@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project/src/core/containers/repository_storage.dart';
-import 'package:project/src/core/presentation/scopes/scope.dart';
+import 'package:flutter_project/src/core/containers/repository_storage.dart';
+import 'package:flutter_project/src/core/presentation/scopes/scope.dart';
 
 class RepositoryScope extends Scope {
   const RepositoryScope({

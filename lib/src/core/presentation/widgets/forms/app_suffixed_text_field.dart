@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:project/src/core/presentation/widgets/textfields/app_text_field.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/presentation/widgets/textfields/app_text_field.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 /// Filled numeric input with a trailing static suffix (e.g. "км").
 ///

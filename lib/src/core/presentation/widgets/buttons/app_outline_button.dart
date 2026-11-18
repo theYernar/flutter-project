@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project/src/core/presentation/widgets/buttons/app_ink_button.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/presentation/widgets/buttons/app_ink_button.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 class AppOutlineButton extends StatelessWidget {
   const AppOutlineButton({

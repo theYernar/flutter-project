@@ -4,14 +4,14 @@ import 'package:bloc_concurrency/bloc_concurrency.dart' as bloc_concurrency;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project/src/core/constant/config.dart';
-import 'package:project/src/core/utils/app_bloc_observer.dart';
-import 'package:project/src/core/utils/refined_logger.dart';
-import 'package:project/src/core/utils/talker_logger_util.dart';
-import 'package:project/src/feature/app/bloc/app_restart_bloc.dart';
-import 'package:project/src/feature/app/initialization/logic/composition_root.dart';
-import 'package:project/src/feature/app/initialization/widget/initialization_failed_app.dart';
-import 'package:project/src/feature/app/presentation/app.dart';
+import 'package:flutter_project/src/core/constant/config.dart';
+import 'package:flutter_project/src/core/utils/app_bloc_observer.dart';
+import 'package:flutter_project/src/core/utils/refined_logger.dart';
+import 'package:flutter_project/src/core/utils/talker_logger_util.dart';
+import 'package:flutter_project/src/feature/app/bloc/app_restart_bloc.dart';
+import 'package:flutter_project/src/feature/app/initialization/logic/composition_root.dart';
+import 'package:flutter_project/src/feature/app/initialization/widget/initialization_failed_app.dart';
+import 'package:flutter_project/src/feature/app/presentation/app.dart';
 import 'package:talker_bloc_logger/talker_bloc_logger.dart';
 
 /// Boots the app: sets up logging, error hooks, the bloc observer, runs

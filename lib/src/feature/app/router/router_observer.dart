@@ -1,6 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:project/src/core/utils/talker_logger_util.dart';
+import 'package:flutter_project/src/core/utils/talker_logger_util.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 
 class RouterObserver extends AutoRouterObserver {

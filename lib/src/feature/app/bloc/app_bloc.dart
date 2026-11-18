@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:project/src/core/utils/talker_logger_util.dart';
-import 'package:project/src/feature/auth/data/auth_repository.dart';
+import 'package:flutter_project/src/core/utils/talker_logger_util.dart';
+import 'package:flutter_project/src/feature/auth/data/auth_repository.dart';
 
 final class AppBloc extends Bloc<AppEvent, AppState> {
   AppBloc({required this._authRepository}) : super(const AppState.loading()) {

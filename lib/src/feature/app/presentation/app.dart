@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project/src/core/constant/config.dart';
-import 'package:project/src/core/containers/repository_storage.dart';
-import 'package:project/src/core/presentation/scopes/repository_scope.dart';
-import 'package:project/src/feature/app/bloc/app_restart_bloc.dart';
-import 'package:project/src/feature/app/initialization/logic/composition_root.dart';
-import 'package:project/src/feature/app/initialization/widget/dependencies_scope.dart';
-import 'package:project/src/feature/app/presentation/widgets/app_bloc_providers.dart';
-import 'package:project/src/feature/app/presentation/material_context.dart';
+import 'package:flutter_project/src/core/constant/config.dart';
+import 'package:flutter_project/src/core/containers/repository_storage.dart';
+import 'package:flutter_project/src/core/presentation/scopes/repository_scope.dart';
+import 'package:flutter_project/src/feature/app/bloc/app_restart_bloc.dart';
+import 'package:flutter_project/src/feature/app/initialization/logic/composition_root.dart';
+import 'package:flutter_project/src/feature/app/initialization/widget/dependencies_scope.dart';
+import 'package:flutter_project/src/feature/app/presentation/widgets/app_bloc_providers.dart';
+import 'package:flutter_project/src/feature/app/presentation/material_context.dart';
 
 /// Root widget. Wires DependenciesScope → RepositoryScope → MaterialContext.
 ///

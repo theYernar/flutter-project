@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pinput/pinput.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 /// Four-cell numeric OTP input.
 ///

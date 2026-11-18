@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:project/src/core/utils/talker_logger_util.dart';
+import 'package:flutter_project/src/core/utils/talker_logger_util.dart';
 
 /// Translates Dio errors into human-readable messages and rejects them
 /// further down the chain.

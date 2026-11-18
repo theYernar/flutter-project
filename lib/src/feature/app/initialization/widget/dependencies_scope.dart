@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:project/src/core/utils/extensions/context_extension.dart';
-import 'package:project/src/feature/app/initialization/model/dependencies_container.dart';
+import 'package:flutter_project/src/core/utils/extensions/context_extension.dart';
+import 'package:flutter_project/src/feature/app/initialization/model/dependencies_container.dart';
 
 /// Provides composed [DependenciesContainer] to the widget tree.
 ///

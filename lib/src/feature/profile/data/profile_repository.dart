@@ -1,4 +1,4 @@
-import 'package:project/src/feature/profile/data/profile_remote_ds.dart';
+import 'package:flutter_project/src/feature/profile/data/profile_remote_ds.dart';
 
 abstract interface class IProfileRepository {}
 

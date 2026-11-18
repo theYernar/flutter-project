@@ -1,8 +1,8 @@
 import 'package:clock/clock.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:project/src/core/constant/config.dart';
-import 'package:project/src/core/utils/refined_logger.dart';
-import 'package:project/src/feature/app/initialization/model/dependencies_container.dart';
+import 'package:flutter_project/src/core/constant/config.dart';
+import 'package:flutter_project/src/core/utils/refined_logger.dart';
+import 'package:flutter_project/src/feature/app/initialization/model/dependencies_container.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Builds the dependency graph once at app startup.

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project/src/core/presentation/widgets/buttons/bouncy_button.dart';
+import 'package:flutter_project/src/core/presentation/widgets/buttons/bouncy_button.dart';
 
 class AppBackButton extends StatelessWidget {
   const AppBackButton({required this.onTap, super.key});

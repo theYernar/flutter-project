@@ -1,10 +1,10 @@
 import 'package:auto_route/auto_route.dart';
 
-import 'package:project/src/feature/app/presentation/pages/launcher_page.dart';
-import 'package:project/src/feature/app/presentation/pages/main_page.dart';
-import 'package:project/src/feature/auth/ui/pages/login_page.dart';
-import 'package:project/src/feature/home/ui/pages/home_page.dart';
-import 'package:project/src/feature/profile/ui/pages/profile_page.dart';
+import 'package:flutter_project/src/feature/app/presentation/pages/launcher_page.dart';
+import 'package:flutter_project/src/feature/app/presentation/pages/main_page.dart';
+import 'package:flutter_project/src/feature/auth/ui/pages/login_page.dart';
+import 'package:flutter_project/src/feature/home/ui/pages/home_page.dart';
+import 'package:flutter_project/src/feature/profile/ui/pages/profile_page.dart';
 
 part 'app_router.gr.dart';
 

@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:dio/dio.dart';
-import 'package:project/src/core/rest_client/src/dio_rest_client/rest_client_dio.dart';
+import 'package:flutter_project/src/core/rest_client/src/dio_rest_client/rest_client_dio.dart';
 import 'package:meta/meta.dart';
 
 /// Rest client backed by [Dio].

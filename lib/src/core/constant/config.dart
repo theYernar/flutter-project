@@ -1,4 +1,4 @@
-import 'package:project/src/feature/app/initialization/model/environment.dart';
+import 'package:flutter_project/src/feature/app/initialization/model/environment.dart';
 
 /// Application configuration.
 class Config {

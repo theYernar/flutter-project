@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:project/src/core/utils/talker_logger_util.dart';
+import 'package:flutter_project/src/core/utils/talker_logger_util.dart';
 
 /// Forces the entire widget subtree to rebuild by changing a `UniqueKey`.
 /// Useful after logout / locale change / theme reset.

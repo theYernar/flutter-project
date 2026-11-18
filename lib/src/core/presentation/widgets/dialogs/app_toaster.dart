@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project/src/core/theme/resources.dart';
+import 'package:flutter_project/src/core/theme/resources.dart';
 
 final class AppToaster {
   const AppToaster._();

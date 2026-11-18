@@ -22,7 +22,7 @@ migrate_working_dir/
 .classpath
 .project
 .settings/
-# .vscode/
+.vscode/
 .claude/
 
 # Flutter/Dart/Pub related
@@ -120,3 +120,6 @@ app.*.map.json
 
 # FVM Version Cache
 .fvm/
+
+# Env
+apple_credentials.env

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:project/src/core/utils/talker_logger_util.dart';
+import 'package:flutter_project/src/core/utils/talker_logger_util.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:talker_dio_logger/talker_dio_logger_interceptor.dart';
 import 'package:talker_dio_logger/talker_dio_logger_settings.dart';
